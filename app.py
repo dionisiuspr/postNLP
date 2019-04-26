@@ -27,15 +27,15 @@ from linebot.models import (
 # firebase
 cred = credentials.Certificate("./serviceAccountKey.json")
 firebase_admin.initialize_app(cred,{
-    'databaseURL' : 'https://treat-me-22bff.firebaseio.com/'
+    'databaseURL' : 'https://treat-me-hackathon.firebaseio.com/'
 })
 
 
 # Flask app should start in global layout
 app = Flask(__name__)
 
-line_bot_api = LineBotApi('QiRriK22eidlQYKXbPseOKC9VEoRnR4/Jvo1GMxQMZXkzYoI+wtql1HchBjEdAcwSBrkj9RNBrixAyV9C0Rx1/6AXu/DqNwnVOaZ7b+ouBHvLZUM3NNntPFAz4V6O3gjyDElT/8FslyCkuRJVQd3wAdB04t89/1O/w1cDnyilFU=')
-handler = WebhookHandler('66102e73c1b74719168a8873e307430b')
+line_bot_api = LineBotApi('srPYwTexW+Tr1MPKXVdLL3qcuAkXjz5kIN3FR8BrXBzFNWEmJiaZWFFz54lV4Y9fGTGQ3x8PlSyE7qnhFGFaDHW+1yRAv9uwRJ4kDcUJM68x3ygfvpujcXY5sni0sm/UJbk1lGVZWGKFWpkAlVrRuwdB04t89/1O/w1cDnyilFU=')
+handler = WebhookHandler('55a16528cf419b682e5f67f5ed225da1')
 
 def sendPre(tipe):
     data= {
