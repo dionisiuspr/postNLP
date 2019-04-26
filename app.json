@@ -1,7 +1,7 @@
 {
   "name": "API.AI",
   "description": "API.AI",
-  "repository": "https://github.com/snorlak1999/11",
+  "repository": "https://github.com/dionisiuspr/postNLP",
   "logo": "http://xvir.github.io/img/apiai.png",
   "keywords": ["api.ai", "natural language"],
   "environments": {
